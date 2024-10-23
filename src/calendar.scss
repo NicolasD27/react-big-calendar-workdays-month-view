@@ -1,0 +1,66 @@
+@import "react-big-calendar/lib/sass/styles";
+
+.rbc-calendar {
+  height: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  margin: 32px;
+}
+
+.custom-event {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #0085ffe5; // Customize background color
+  border-radius: 25px; // Rounded corners
+  color: white;
+
+  .event-avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-left: 4px;
+  }
+}
+
+.rbc-toolbar {
+  height: 56px;
+  padding: 16px;
+  border-bottom: 1px solid #dadce099;
+  margin: 0 !important;
+}
+
+.rbc-event {
+  background-color: transparent !important;
+  padding: 1px 2px !important;
+  cursor: auto !important;
+}
+
+.rbc-header {
+  height: 24px;
+  border-bottom: 1px solid #dadce0 !important;
+}
+
+.rbc-day-bg {
+  padding: 12px;
+}
+
+.rbc-row-content {
+  padding-top: 40px;
+  padding-bottom: 8px;
+}
+
+.rbc-month-row {
+  height: 100%;
+}
+
+.rbc-month-view {
+  display: grid !important;
+  height: auto !important;
+  border-width: 0 !important;
+}
+
+.rbc-month-row {
+  min-height: 100px;
+}
